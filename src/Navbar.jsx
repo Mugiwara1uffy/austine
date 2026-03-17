@@ -9,7 +9,7 @@ export default function Navbar() {
     }}>
       <div style={{ maxWidth: "1100px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <img src="/images/logo.webp" alt="MISASA" style={{ height: "30px", width: "auto" }} />
+          <img src="./logo.webp" alt="MISASA" style={{ height: "30px", width: "auto" }} />
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <div style={{
               width: "8px", height: "8px", borderRadius: "50%",
