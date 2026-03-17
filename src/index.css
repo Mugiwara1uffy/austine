@@ -1,0 +1,48 @@
+/* MISASA — Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue-primary:   #1A5FA8;
+  --blue-light:     #4A90D9;
+  --blue-dark:      #0d1b2e;
+  --orange-accent:  #F5831F;
+  --orange-dark:    #e06b00;
+  --white:          #ffffff;
+  --bg-light:       #F4F7FB;
+  --text-dark:      #1C1C2E;
+  --text-muted:     #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+/* Smooth scrolling offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 70px;
+}
