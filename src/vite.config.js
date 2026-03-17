@@ -6,7 +6,7 @@ const REPO_NAME = "misasa";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/austine/",
+  base: "/",
   build: {
     outDir: "dist",
     assetsDir: "assets",
