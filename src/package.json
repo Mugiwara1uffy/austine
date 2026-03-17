@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://mugiwara1luffy.github.io/austine",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
